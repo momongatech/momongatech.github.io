@@ -1,0 +1,65 @@
+:root {
+    --col1: rgb(255, 255, 255);
+    --col2: rgb(199, 12, 68);
+    --col3: rgb(148, 8, 50);
+    --col4: rgb(70, 70, 70);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--col1);
+    color: var(--col4);
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+    color: var(--col2);
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-2 {
+    background-color: white;
+}
+
+#logo {
+    background: url(mmg.png);
+    margin: 10px auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 130px;
+}
+
+.centered-div {
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 20%;
+}
+
+.tag-line {
+    font-size: 20px;
+}
+
+.footer {
+    font-size: 14px;
+    height: 40px;
+    background-color: var(--col4);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
