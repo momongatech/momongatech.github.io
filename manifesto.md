@@ -1,0 +1,6 @@
+- Maximize capacity, minimize footprint
+- Simplify, don't complicate
+- Make accessible, don't obfuscate
+- Favor being boring but stable, avoid being shiny but fragile
+- Reduce dependencies
+- YAGNI
